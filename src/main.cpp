@@ -25,6 +25,9 @@ int main() {
     InterruptIn down(A3);
 
     up.rise(on);
+    up.fall(off);
+
+    down.rise(on);
     down.fall(off);
 
     left.rise(on);
